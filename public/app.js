@@ -1,10 +1,13 @@
 "use strict";
 // classes
 var Invoice = /** @class */ (function () {
-    function Invoice(c, d, a) {
-        this.client = c;
-        this.details = d;
-        this.amount = a;
+    // readonly client: string;
+    // private details: string;
+    // public amount: number;
+    function Invoice(client, details, amount) {
+        this.client = client;
+        this.details = details;
+        this.amount = amount;
     }
     ;
     Invoice.prototype.format = function () {
@@ -19,10 +22,9 @@ var invTwo = new Invoice('luigi', 'work on the luigi website', 300);
 var invoices = [];
 invoices.push(invOne);
 invoices.push(invTwo);
-invOne.client = 'yoshi';
-invTwo.amount = 400;
-console.log(invOne, invTwo);
-console.log(invoices);
+invoices.forEach(function (inv) {
+    console.log(inv.client, inv.amount, inv.format());
+});
 var form = document.querySelector('.new-item-form');
 // inputs
 var type = document.querySelector('#type');
