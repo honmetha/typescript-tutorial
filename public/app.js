@@ -24,14 +24,3 @@ form.addEventListener('submit', (e) => {
     ;
     list.render(doc, type.value, 'end');
 });
-// tuples
-let arr = ['ryu', 25, true];
-arr[0] = false;
-arr[1] = 'yoshi';
-arr = [30, false, 'yoshi'];
-let tup = ['ryu', 25, true];
-tup[0] = 'ken';
-tup[1] = 30;
-// let student: [string, number];
-// student = [234234, 'ken'];
-// student = ['chun-li', 223423];
