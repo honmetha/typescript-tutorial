@@ -1,27 +1,28 @@
 # TypeScript Tutorial
 
-1 - Introduction & Setup
-2 - Compiling TypeScript
-3 - Type Basics
-4 - Objects & Arrays
-5 - Explicit Types
-6 - Dynamic (any) Types
-7 - Better Workflow & tsconfig
-8 - Function Basics
-9 - Type Aliases
-10 - Function Signatures
-11 - The DOM & Type Casting
-12 - Classes
-13 - Public, Private & Readonly
-14 - Modules
-15 - Interfaces
-16 - Interfaces with Classes
-17 - Rendering an HTML Template
-18 - Generics
-19 - Enums
-20 - Tuples
-21 - Wrap Up
+This is the [TypeScript Tutorial Project](https://honmetha.github.io/typescript-tutorial/public/index.html) that I learnt from [The Net Ninja](https://www.youtube.com/watch?v=2pZmKW9-I_k&list=PL4cUxeGkcC9gUgr39Q_yD6v-bSyMwKPUI).
+![Project Preview](./uploads/project-preview.png)
 
-https://www.youtube.com/watch?v=2pZmKW9-I_k&list=PL4cUxeGkcC9gUgr39Q_yD6v-bSyMwKPUI
+## Tutorials
 
-![plot](./public/assets/netninja.png)
+1. Introduction & Setup
+1. Compiling TypeScript
+1. Type Basics
+1. Objects & Arrays
+1. Explicit Types
+1. Dynamic (any) Types
+1. Better Workflow & tsconfig
+1. Function Basics
+1. Type Aliases
+1. Function Signatures
+1. The DOM & Type Casting
+1. Classes
+1. Public, Private & Readonly
+1. ModulesFeatures
+1. Interfaces
+1. Interfaces with Classes
+1. Rendering an HTML Template
+1. Generics
+1. Enums
+1. Tuples
+1. Wrap Up
